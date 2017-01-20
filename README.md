@@ -1,11 +1,11 @@
 # Mixture Density Networks implementation for distribution and uncertainty estimation
 A generic Mixture Density Networks implementation for distribution and uncertainty estimation by using Keras (TensorFlow)
 
-This repository is a collection of [Jupyter](https://jupyter.org/) notebooks intended to solve a lot of problems in which we want to predict a probability distribution by using Mixture Density Network avoiding NaN's problem and other derived problems of the model proposed by [Bishop, C. M. (1994)](http://eprints.aston.ac.uk/373/). The second major objective of this repository is to look for ways to predict uncertainty by using artificial neural networks.
+This repository is a collection of [Jupyter](https://jupyter.org/) notebooks intended to solve a lot of problems in which we want to predict a probability distribution by using Mixture Density Network avoiding a NaN problem and other derived problems of the model proposed by [Bishop, C. M. (1994)](http://eprints.aston.ac.uk/373/). The second major objective of this repository is to look for ways to predict uncertainty by using artificial neural networks.
 
-The whole code, until 20.1.2017, is the result of a final Master's Thesis of the [Master's degree in Artificial Intelligence](http://www.upc.edu/master/fitxa_master.php?id_estudi=50&lang=esp).
+The whole code, until 20.1.2017, is the result of a final Master's Thesis of the [Master's Degree in Artificial Intelligence](http://www.upc.edu/master/fitxa_master.php?id_estudi=50&lang=esp) supervised by Jordi Vitrià, PhD.
 
-<p align="center"><img src="https://cdn.rawgit.com/axelbrando/Mixture-Density-Networks-for-distribution-and-uncertainty-estimation/95de07ba/svgs/f442dfcf42c5ca5d6c9b96753cde8768.svg" align=middle width=645.87435pt height=348.58725pt/>
+<p align="center"><img src="https://cdn.rawgit.com/axelbrando/Mixture-Density-Networks-for-distribution-and-uncertainty-estimation/cd4d8e9c/svgs/f442dfcf42c5ca5d6c9b96753cde8768.svg" align=middle width=645.87435pt height=348.58725pt/>
 </p>
 <p align="center">
 <em>Representation of the Mixture Density Network model. The output of the feed-forward neural network determine the parameters in a mixture density model. Therefore, the mixture density model represents the conditional probability density function of the target variables conditioned on the input vector of the neural network.</em>
@@ -14,11 +14,11 @@ The whole code, until 20.1.2017, is the result of a final Master's Thesis of the
 ## Implemented tricks and techniques
 
 > - Log-sum-exp trick.
-> - ELU+1 representation function for variance scale parameter proposed by us in the Master's Thesis that I will link to when it has been published.
+> - ELU+1 representation function for variance scale parameter proposed by us in the Master's Thesis that I will link when it is published.
 > - Clipping of the mixing coefficient parameter value.
-> - mean log Gaussian likelihood proposed by [Bishop](http://eprints.aston.ac.uk/373/).
-> - mean log Laplace likelihood proposed by us in the Master's Thesis that I will link to when it has been published.
-> - Fast Gradient Sign Method to produce Adversarial Training proposed [by Goodfellow et al.](https://arxiv.org/abs/1412.6572).
+> - Mean log Gaussian likelihood proposed by [Bishop](http://eprints.aston.ac.uk/373/).
+> - Mean log Laplace likelihood proposed by us in the Master's Thesis that I will link when it is published.
+> - Fast Gradient Sign Method to produce Adversarial Training proposed [by Goodfellow et al](https://arxiv.org/abs/1412.6572).
 > - Modified version of Adversarial Training proposed by [Nokland](https://arxiv.org/abs/1510.04189).
 
 ## Some Keras algorithms used
@@ -30,11 +30,11 @@ The whole code, until 20.1.2017, is the result of a final Master's Thesis of the
 
 ## Implemented visualisation functionalities
 
-> - Generic implementation to visualize mean and variance (as errorbar) of the distribution with maximum mixing coefficient  of of the MDN.
-> - Generic implementation to visualize mean and variance (as errorbar) of all the distributions of of the MDN.
-> - Generic implementation to visualize all the probability density function as a *heat graphic* for 2D problems.
-> - Generic implementation to visualize the original 3D surface and visualise the mean of the distribution of the mixture through a sampling process.
-> - Adversarial data set visualisation by us in the Master's Thesis that I will link to when it has been published.
+> - Generic implementation to visualise mean and variance (as errorbar) of the distribution with maximum mixing coefficient  of of the MDN.
+> - Generic implementation to visualise mean and variance (as errorbar) of all the distributions of of the MDN.
+> - Generic implementation to visualise all the probability density function as a *heat graphic* for 2D problems.
+> - Generic implementation to visualise the original 3D surface and visualise the mean of the distribution of the mixture through a sampling process.
+> - Adversarial data set visualisation by us in the Master's Thesis that I will link when it is published.
 
 
 
@@ -58,14 +58,13 @@ The whole code, until 20.1.2017, is the result of a final Master's Thesis of the
 
 
 
-
-## Contributing
+## Contributions
 
 Contributions are welcome!  For bug reports or requests please [submit an issue](https://github.com/axelbrando/Mixture-Density-Networks-for-distribution-and-uncertainty-estimation/issues).
 
 ## Contact  
 
-Feel free to contact me to discuss any issues, questions, or comments.
+Feel free to contact me to discuss any issues, questions or comments.
 
 * GitHub: [axelbrando](https://github.com/axelbrando)
 * Website: [axelbrando.github.io](http://axelbrando.github.io)
