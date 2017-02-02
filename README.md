@@ -3,7 +3,7 @@ A generic Mixture Density Networks implementation for distribution and uncertain
 
 This repository is a collection of [Jupyter](https://jupyter.org/) notebooks intended to solve a lot of problems in which we want to predict a probability distribution by using Mixture Density Network avoiding a NaN problem and other derived problems of the model proposed by [Bishop, C. M. (1994)](http://eprints.aston.ac.uk/373/). The second major objective of this repository is to look for ways to predict uncertainty by using artificial neural networks.
 
-The whole code, until 20.1.2017, is the result of a final Master's Thesis of the [Master's Degree in Artificial Intelligence](http://www.upc.edu/master/fitxa_master.php?id_estudi=50&lang=esp) supervised by Jordi Vitrià, PhD.
+The whole code, until 20.1.2017, is the result of a final Master's Thesis of the [Master's Degree in Artificial Intelligence](http://www.upc.edu/master/fitxa_master.php?id_estudi=50&lang=esp) supervised by Jordi Vitrià, PhD. I will link this Master's Thesis when it is published. Until then, it will be possible to consult the [slides of the presentation](https://github.com/axelbrando/Mixture-Density-Networks-for-distribution-and-uncertainty-estimation/blob/master/ABrando-MDN-Slides.pdf).
 
 <p align="center"><img src="https://cdn.rawgit.com/axelbrando/Mixture-Density-Networks-for-distribution-and-uncertainty-estimation/cd4d8e9c/svgs/f442dfcf42c5ca5d6c9b96753cde8768.svg" align=middle width=645.87435pt height=348.58725pt/>
 </p>
@@ -20,6 +20,7 @@ The whole code, until 20.1.2017, is the result of a final Master's Thesis of the
 > - Mean log Laplace likelihood proposed by us in the Master's Thesis that I will link when it is published.
 > - Fast Gradient Sign Method to produce Adversarial Training proposed [by Goodfellow et al](https://arxiv.org/abs/1412.6572).
 > - Modified version of Adversarial Training proposed by [Nokland](https://arxiv.org/abs/1510.04189).
+> - Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles implementation proposed by [Lakshminarayanan et a](https://arxiv.org/abs/1612.01474).
 
 ## Some Keras algorithms used
 
@@ -34,7 +35,7 @@ The whole code, until 20.1.2017, is the result of a final Master's Thesis of the
 > - Generic implementation to visualise mean and variance (as errorbar) of all the distributions of of the MDN.
 > - Generic implementation to visualise all the probability density function as a *heat graphic* for 2D problems.
 > - Generic implementation to visualise the original 3D surface and visualise the mean of the distribution of the mixture through a sampling process.
-> - Adversarial data set visualisation by us in the Master's Thesis that I will link when it is published.
+> - Adversarial data set visualisation proposed by us in the Master's Thesis that I will link when it is published.
 
 
 
