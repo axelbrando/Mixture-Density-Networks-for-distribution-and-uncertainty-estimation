@@ -42,7 +42,7 @@ The whole code, until 20.1.2017, is the result of a final Master's Thesis of the
 ## Notebooks
 (Currently tested on Keras (1.1.0) and TensorFlow (0.11.0rc2)
 
-#### [Introduction to MDN models and generic implementation of MDN](https://github.com/axelbrando/Mixture-Density-Networks-for-distribution-and-uncertainty-estimation/blob/master/MDN-Introduction.ipynb.ipynb)
+#### [Introduction to MDN models and generic implementation of MDN](https://github.com/axelbrando/Mixture-Density-Networks-for-distribution-and-uncertainty-estimation/blob/master/MDN-Introduction.ipynb)
 
 #### [MDN applied to a 2D regression problem](https://github.com/axelbrando/Mixture-Density-Networks-for-distribution-and-uncertainty-estimation/blob/master/MDN-2D-Regression.ipynb)
 
