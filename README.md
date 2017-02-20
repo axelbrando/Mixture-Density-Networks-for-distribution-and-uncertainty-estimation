@@ -70,14 +70,25 @@ Feel free to contact me to discuss any issues, questions or comments.
 * GitHub: [axelbrando](https://github.com/axelbrando)
 * Website: [axelbrando.github.io](http://axelbrando.github.io)
 
-### BibTex reference format for citation
+### BibTex reference format for citation for the Code
 ```
 @misc{MDNABrando,
 title={Mixture Density Networks (MDN) for distribution and uncertainty estimation},
 url={https://github.com/axelbrando/Mixture-Density-Networks-for-distribution-and-uncertainty-estimation/},
 note={GitHub repository with a collection of Jupyter notebooks intended to solve a lot of problems related to MDN.},
 author={Axel Brando},
-  year={2017},
+  year={2017}
+}
+```
+### BibTex reference format for citation for the report of the Master's Thesis
+
+```
+@misc{MDNABrandoMasterThesis,
+title={Mixture Density Networks (MDN) for distribution and uncertainty estimation},
+url={https://github.com/axelbrando/Mixture-Density-Networks-for-distribution-and-uncertainty-estimation/blob/master/ABrando-MDN-MasterThesis.pdf},
+note={Report of the Master's Thesis: Mixture Density Networks for distribution and uncertainty estimation.},
+author={Axel Brando},
+  year={2017}
 }
 ```
 
